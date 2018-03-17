@@ -1,15 +1,3 @@
-/*
-	Possible things to add:
-		- make hitting the ground kill you
-		- mouse click jumping
-		- start on button click, not page load
-		- add restart button after death
-		- save high score
-		- delete obstacles that go off screen
-		- pause function
-*/
-
-
 var myGamePiece;
 var myObstacles = [];
 var score = 0;
@@ -43,7 +31,6 @@ var myGameArea = {
     	})
 
     	
-
     	// used to keep track of obstacles and the score
     	this.frameNo = 0;
     },
